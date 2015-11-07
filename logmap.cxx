@@ -9,7 +9,7 @@ int main(void){
 	double x;
 	int Nskip = 100; //Number of iterations to skip
 	int Nend  = 200; //Number of total iterations
-	double y[Nend-Nskip]; //Array zum Speichern der x-Werte
+	double y[Nend-Nskip]; //Array for storing values of x
 
 	for(double r=0; r <= 4; r += 0.001){
 	   x=x0;
